@@ -8,3 +8,4 @@ EXT=aa.fasta
 INFLATION=15 #I 1.5
 COMPAREFOLDER=./Comparative_pipeline
 JOBSIZE=10
+EXT=fasta
