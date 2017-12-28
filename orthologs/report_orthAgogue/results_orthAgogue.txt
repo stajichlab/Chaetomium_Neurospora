@@ -1,2 +1,3 @@
 #	read_first	collect_read	read_second	collect_final	collect_lfp	collect_overlap	ortholog_init	orthologs	inparalogs	co_orthologs	write_result	complete	blast_parsing	blast_filtering	#
 2	      0.31	      0.04	      1.29	      0.01	      0.01	      0.00	      0.00	      0.08	      0.05	      0.05	      0.20	      2.04	      1.65	      0.39	#
+2	      0.17	      0.03	      0.46	      0.00	      0.00	      0.00	      0.00	      0.02	      0.03	      0.01	      4.47	      5.21	      0.66	      4.55	#
