@@ -1,5 +1,10 @@
-#!/usr/bin/bash
+#!/bin/bash
 
-srun -p short --time 2:00:00 Comparative_pipeline/pipeline/combine_BLASTP.sh
-srun -p short --time 2:00:00 Comparative_pipeline/pipeline/orthagogue.sh
+COMPAREFOLDER=./Comparative_pipeline
+
+if [ -f config.txt ]; then
+ source config.txt
+fi
+srun -p short --time 2:00:00 $COMPAREFOLDER/pipeline/combine_BLASTP.sh
+srun -p short --time 2:00:00 $COMPAREFOLDER/pipeline/orthagogue.sh
 
